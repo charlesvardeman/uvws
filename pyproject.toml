@@ -6,6 +6,7 @@ dependencies = [
     "click>=8.3.1",
     "dspy",
     "fastcore>=1.8.12",
+    "gkeep>=1.0.1",
     "gkeepapi>=0.17.1",
     "ipython>=8.34.0",
     "jupyterlab>=4.5.1",
