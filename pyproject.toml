@@ -3,11 +3,19 @@ name = "uvws"
 version = "0.0.1"
 requires-python = ">=3.10,<3.13"
 dependencies = [
+    "click>=8.3.1",
+    "dspy",
+    "fastcore>=1.8.12",
+    "gkeepapi>=0.17.1",
     "ipython>=8.34.0",
+    "jupyterlab>=4.5.1",
+    "keyring>=25.7.0",
     "nbdev>=2.4.5",
+    "pillow>=12.1.1",
 ]
 
 [tool.uv.sources]
+dspy = { workspace = true }
 
 [tool.uv.workspace]
 members = ["./*"]
